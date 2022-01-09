@@ -17,7 +17,7 @@ services:
     build:
       context: ./app
     volumes:
-      - ../template-3rd-study:/work/backend
+      - ../template-ph3-study:/work/backend
     depends_on: ["db"]
   web:
     build:
@@ -25,5 +25,5 @@ services:
     ports:
       - 80:80
     volumes:
-      - ../template-3rd-study:/work/backend
+      - ../template-ph3-study:/work/backend
     depends_on: ["app"]
