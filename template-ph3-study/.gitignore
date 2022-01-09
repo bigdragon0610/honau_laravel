@@ -4,6 +4,7 @@
 /storage/*.key
 /vendor/*
 !autoload.php
+!composer
 .env
 .env.backup
 .phpunit.result.cache
