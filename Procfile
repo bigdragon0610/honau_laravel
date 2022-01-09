@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-nginx -C nginx.conf template-ph3-study/public
+web: vendor/bin/heroku-php-nginx -C nginx.conf template-ph3-study/public/
